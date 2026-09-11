@@ -100,6 +100,15 @@ Features:
 - Slider to browse through slices
 - View Raw, Edge_Corrected, MLI_only, and Contours simultaneously
 
+### Reproducing Outputs
+
+If you wish to reproduce published outputs, follow these steps:
+- Delete all subfolders in `Outputs/`, `Inputs/MLI_only/`, and `Inputs/Edge_Corrected/`
+- Create environment and run the analysis notebook as instructed above
+- For a given pinceaux in `Inputs/Raw/`, find  the associated `analysis_config.json` file
+- Copy the input data from the json file in the notebook prompts and run
+The existing outputs need to be cleared manually before attempting to replicate the processing.
+
 ---
 
 ## Output Files Explained
