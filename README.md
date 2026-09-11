@@ -2,6 +2,8 @@
 
 Image analysis for pinceau electron microscopy data processing.
 
+[![DOI](https://zenodo.org/badge/1365362196.svg)](https://doi.org/10.5281/zenodo.22703053)
+
 ## Overview
 
 This pipeline processes EM dataset sections through multiple stages:
